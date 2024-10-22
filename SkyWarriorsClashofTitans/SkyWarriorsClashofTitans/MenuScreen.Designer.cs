@@ -31,29 +31,41 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuScreen));
             this.MenuTimer = new System.Windows.Forms.Timer(this.components);
+            this.BackgroundMusic = new AxWMPLib.AxWindowsMediaPlayer();
             this.menuPanel = new System.Windows.Forms.Panel();
             this.player_icon3 = new System.Windows.Forms.PictureBox();
             this.player_icon1 = new System.Windows.Forms.PictureBox();
             this.player_icon4 = new System.Windows.Forms.PictureBox();
             this.player_icon2 = new System.Windows.Forms.PictureBox();
             this.btn_quit = new System.Windows.Forms.PictureBox();
+            this.btn_shop = new System.Windows.Forms.PictureBox();
             this.btn_settings = new System.Windows.Forms.PictureBox();
             this.btn_play = new System.Windows.Forms.PictureBox();
-            this.BackgroundMusic = new AxWMPLib.AxWindowsMediaPlayer();
+            ((System.ComponentModel.ISupportInitialize)(this.BackgroundMusic)).BeginInit();
             this.menuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.player_icon3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player_icon1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player_icon4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player_icon2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_quit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_shop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_settings)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_play)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BackgroundMusic)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuTimer
             // 
             this.MenuTimer.Tag = "MainMenuEvent";
+            // 
+            // BackgroundMusic
+            // 
+            this.BackgroundMusic.Enabled = true;
+            this.BackgroundMusic.Location = new System.Drawing.Point(668, 12);
+            this.BackgroundMusic.Name = "BackgroundMusic";
+            this.BackgroundMusic.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("BackgroundMusic.OcxState")));
+            this.BackgroundMusic.Size = new System.Drawing.Size(195, 60);
+            this.BackgroundMusic.TabIndex = 1;
+            this.BackgroundMusic.Visible = false;
             // 
             // menuPanel
             // 
@@ -65,11 +77,12 @@
             this.menuPanel.Controls.Add(this.player_icon4);
             this.menuPanel.Controls.Add(this.player_icon2);
             this.menuPanel.Controls.Add(this.btn_quit);
+            this.menuPanel.Controls.Add(this.btn_shop);
             this.menuPanel.Controls.Add(this.btn_settings);
             this.menuPanel.Controls.Add(this.btn_play);
-            this.menuPanel.Location = new System.Drawing.Point(608, 178);
+            this.menuPanel.Location = new System.Drawing.Point(608, 116);
             this.menuPanel.Name = "menuPanel";
-            this.menuPanel.Size = new System.Drawing.Size(311, 531);
+            this.menuPanel.Size = new System.Drawing.Size(311, 656);
             this.menuPanel.TabIndex = 0;
             // 
             // player_icon3
@@ -121,7 +134,7 @@
             this.btn_quit.BackColor = System.Drawing.Color.Transparent;
             this.btn_quit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_quit.Image = global::SkyWarriorsClashofTitans.Properties.Resources.QuitBtn;
-            this.btn_quit.Location = new System.Drawing.Point(45, 383);
+            this.btn_quit.Location = new System.Drawing.Point(45, 510);
             this.btn_quit.Name = "btn_quit";
             this.btn_quit.Size = new System.Drawing.Size(226, 109);
             this.btn_quit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -131,12 +144,27 @@
             this.btn_quit.MouseLeave += new System.EventHandler(this.btn_quit_MouseLeave);
             this.btn_quit.MouseHover += new System.EventHandler(this.btn_quit_MouseHover);
             // 
+            // btn_shop
+            // 
+            this.btn_shop.BackColor = System.Drawing.Color.Transparent;
+            this.btn_shop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_shop.Image = global::SkyWarriorsClashofTitans.Properties.Resources.ShopBtn;
+            this.btn_shop.Location = new System.Drawing.Point(45, 254);
+            this.btn_shop.Name = "btn_shop";
+            this.btn_shop.Size = new System.Drawing.Size(226, 109);
+            this.btn_shop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_shop.TabIndex = 0;
+            this.btn_shop.TabStop = false;
+            this.btn_shop.Click += new System.EventHandler(this.btn_shop_Click);
+            this.btn_shop.MouseLeave += new System.EventHandler(this.btn_shop_MouseLeave);
+            this.btn_shop.MouseHover += new System.EventHandler(this.btn_shop_MouseHover);
+            // 
             // btn_settings
             // 
             this.btn_settings.BackColor = System.Drawing.Color.Transparent;
             this.btn_settings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_settings.Image = global::SkyWarriorsClashofTitans.Properties.Resources.SettingsBtn;
-            this.btn_settings.Location = new System.Drawing.Point(45, 255);
+            this.btn_settings.Location = new System.Drawing.Point(45, 382);
             this.btn_settings.Name = "btn_settings";
             this.btn_settings.Size = new System.Drawing.Size(226, 109);
             this.btn_settings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -161,36 +189,27 @@
             this.btn_play.MouseLeave += new System.EventHandler(this.btn_play_MouseLeave);
             this.btn_play.MouseHover += new System.EventHandler(this.btn_play_MouseHover);
             // 
-            // BackgroundMusic
-            // 
-            this.BackgroundMusic.Enabled = true;
-            this.BackgroundMusic.Location = new System.Drawing.Point(668, 76);
-            this.BackgroundMusic.Name = "BackgroundMusic";
-            this.BackgroundMusic.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("BackgroundMusic.OcxState")));
-            this.BackgroundMusic.Size = new System.Drawing.Size(195, 60);
-            this.BackgroundMusic.TabIndex = 1;
-            this.BackgroundMusic.Visible = false;
-            // 
             // MenuScreen
             // 
-            this.BackgroundImage = global::SkyWarriorsClashofTitans.Properties.Resources.Backgrounds7;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1527, 784);
             this.Controls.Add(this.BackgroundMusic);
             this.Controls.Add(this.menuPanel);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuScreen";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyIsDown);
+            ((System.ComponentModel.ISupportInitialize)(this.BackgroundMusic)).EndInit();
             this.menuPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.player_icon3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player_icon1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player_icon4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player_icon2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_quit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_shop)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_settings)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_play)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BackgroundMusic)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -207,5 +226,6 @@
         private System.Windows.Forms.PictureBox player_icon4;
         private System.Windows.Forms.Timer MenuTimer;
         private AxWMPLib.AxWindowsMediaPlayer BackgroundMusic;
+        private System.Windows.Forms.PictureBox btn_shop;
     }
 }

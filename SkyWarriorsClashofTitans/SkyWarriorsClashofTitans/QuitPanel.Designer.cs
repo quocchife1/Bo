@@ -57,6 +57,8 @@
             this.btnNo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnNo.TabIndex = 2;
             this.btnNo.TabStop = false;
+            this.btnNo.Click += new System.EventHandler(this.btnNo_Click);
+            this.btnNo.MouseLeave += new System.EventHandler(this.btnNo_MouseLeave);
             this.btnNo.MouseHover += new System.EventHandler(this.btn_no_hover);
             // 
             // btnYes
@@ -69,6 +71,8 @@
             this.btnYes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnYes.TabIndex = 2;
             this.btnYes.TabStop = false;
+            this.btnYes.Click += new System.EventHandler(this.btnYes_Click);
+            this.btnYes.MouseLeave += new System.EventHandler(this.btnYes_MouseLeave);
             this.btnYes.MouseHover += new System.EventHandler(this.btn_yes_hover);
             // 
             // QuitPanel

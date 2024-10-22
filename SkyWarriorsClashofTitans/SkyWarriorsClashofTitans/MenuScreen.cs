@@ -42,21 +42,38 @@ namespace SkyWarriorsClashofTitans
         private void btn_play_MouseHover(object sender, EventArgs e)
         {
             btn_play.Image = Properties.Resources.play_hover;
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
+            sound.Play();
         }
 
+        private void btn_shop_MouseHover(object sender, EventArgs e)
+        {
+            btn_shop.Image = Properties.Resources.shop_hover;
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
+            sound.Play();
+        }
         private void btn_settings_MouseHover(object sender, EventArgs e)
         {
             btn_settings.Image = Properties.Resources.settings_hover;
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
+            sound.Play();
         }
 
         private void btn_quit_MouseHover(object sender, EventArgs e)
         {
             btn_quit.Image = Properties.Resources.quit_hover;
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
+            sound.Play();
         }
 
         private void btn_play_MouseLeave(object sender, EventArgs e)
         {
             btn_play.Image= Properties.Resources.PlayBtn;
+        }
+
+        private void btn_shop_MouseLeave(object sender, EventArgs e)
+        {
+            btn_shop.Image = Properties.Resources.ShopBtn;
         }
 
         private void btn_settings_MouseLeave(object sender, EventArgs e)
@@ -72,20 +89,34 @@ namespace SkyWarriorsClashofTitans
         private void btn_play_Click(object sender, EventArgs e)
         {
             //menuPanel.Hide();
-            Form1 gamePlay = new Form1();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE1.wav");
+            sound.Play();
+            GameScreen gamePlay = new GameScreen();
             gamePlay.ShowDialog();
         }
 
-        private void btn_settings_Click(object sender, EventArgs e)
+        private void btn_shop_Click(object sender, EventArgs e)
         {
-            Settings settings = new Settings();
-            settings.ShowDialog();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE1.wav");
+            sound.Play();
+            ShopScreen shopscreen = new ShopScreen();
+            shopscreen.ShowDialog();
         }
 
         private void btn_quit_Click(object sender, EventArgs e)
         {
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE1.wav");
+            sound.Play();
             QuitPanel quitPanel = new QuitPanel();
             quitPanel.ShowDialog();
+        }
+
+        private void btn_settings_Click(object sender, EventArgs e)
+        {
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE1.wav");
+            sound.Play();
+            SettingScreen setting = new SettingScreen();
+            setting.ShowDialog();
         }
     }
 }
