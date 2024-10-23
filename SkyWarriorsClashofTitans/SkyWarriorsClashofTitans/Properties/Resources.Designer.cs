@@ -273,9 +273,29 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Boss3_ezgif_com_gif_maker {
+            get {
+                object obj = ResourceManager.GetObject("Boss3-ezgif.com-gif-maker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Boss4 {
             get {
                 object obj = ResourceManager.GetObject("Boss4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Boss4_ezgif_com_gif_maker {
+            get {
+                object obj = ResourceManager.GetObject("Boss4-ezgif.com-gif-maker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -523,6 +543,16 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Enemy2_ezgif1 {
+            get {
+                object obj = ResourceManager.GetObject("Enemy2-ezgif1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Enemy21 {
             get {
                 object obj = ResourceManager.GetObject("Enemy21", resourceCulture);
@@ -663,9 +693,29 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap F16_ezgif_com_rotate {
+            get {
+                object obj = ResourceManager.GetObject("F16-ezgif.com-rotate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap F17 {
             get {
                 object obj = ResourceManager.GetObject("F17", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F17_ezgif_com_rotate {
+            get {
+                object obj = ResourceManager.GetObject("F17-ezgif.com-rotate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
