@@ -27,7 +27,6 @@ D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\A
 D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.csproj.ResolveComReference.cache
 D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.QuitPanel.resources
 D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.MenuScreen.resources
-D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.Properties.Resources.resources
 D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.csproj.GenerateResource.cache
 D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.csproj.CoreCompileInputs.cache
 D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.exe
@@ -35,3 +34,4 @@ D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\S
 D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.SettingScreen.resources
 D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.GameScreen.resources
 D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.ShopScreen.resources
+D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.Properties.Resources.resources

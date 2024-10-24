@@ -265,6 +265,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GameIcon.ico" />
+    <None Include="Resources\MenuPanel3.png" />
     <None Include="Resources\OKbtn.png" />
     <None Include="Resources\ok_hover.png" />
     <None Include="Resources\select2.gif" />

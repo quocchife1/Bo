@@ -70,7 +70,7 @@
             // menuPanel
             // 
             this.menuPanel.BackColor = System.Drawing.Color.Transparent;
-            this.menuPanel.BackgroundImage = global::SkyWarriorsClashofTitans.Properties.Resources.MenuPanel2;
+            this.menuPanel.BackgroundImage = global::SkyWarriorsClashofTitans.Properties.Resources.MenuPanel;
             this.menuPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.menuPanel.Controls.Add(this.player_icon3);
             this.menuPanel.Controls.Add(this.player_icon1);

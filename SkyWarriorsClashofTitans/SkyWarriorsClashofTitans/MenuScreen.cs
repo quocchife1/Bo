@@ -3,21 +3,25 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace SkyWarriorsClashofTitans
 {
     public partial class MenuScreen : Form
     {
+        WindowsMediaPlayer snd;
         public MenuScreen()
         {
             InitializeComponent();
             //MenuScreen_Load();
-            wplayer.URL = (@"D:\Github\Winforms\Sound\IAmaRobot.wav");
+            //wplayer.URL = (@"D:\Github\Winforms\Sound\IAmaRobot.wav");
             wplayer.controls.play();
         }
 
@@ -37,6 +41,15 @@ namespace SkyWarriorsClashofTitans
             {
                 this.Close();
             }
+        }
+
+        private void playaudio(object sender, EventArgs e)
+        {
+            var basePath = System.AppDomain.CurrentDomain.BaseDirectory;
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = Path.Combine(basePath, @"./../../IAmaRobot.wav");
+            player.Load();
+            player.Play();
         }
 
         private void btn_play_MouseHover(object sender, EventArgs e)
