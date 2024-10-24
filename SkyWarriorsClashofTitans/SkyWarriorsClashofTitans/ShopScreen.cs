@@ -15,7 +15,7 @@ namespace SkyWarriorsClashofTitans
         public ShopScreen()
         {
             InitializeComponent();
-            ShopScreen_Load();
+            //ShopScreen_Load();
         }
         #region Full screen
         private void ShopScreen_Load()
@@ -28,21 +28,33 @@ namespace SkyWarriorsClashofTitans
 
         private void btn_play_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE1.wav");
-            sound.Play();
+            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE1.wav");
+            //sound.Play();
             this.Close();
         }
 
         private void btn_play_MouseHover(object sender, EventArgs e)
         {
             btn_back.Image = Properties.Resources.Back_hover;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
-            sound.Play();
+            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
+            //sound.Play();
         }
 
         private void btn_back_MouseLeave(object sender, EventArgs e)
         {
             btn_back.Image = Properties.Resources.BackBtn__2_;
+        }
+
+        private void OK_btn_MouseHover(object sender, EventArgs e)
+        {
+            OK_btn.Image = Properties.Resources.ok_hover;
+            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
+            //sound.Play();
+        }
+
+        private void OK_btn_MouseLeave(object sender, EventArgs e)
+        {
+            OK_btn.Image = Properties.Resources.OKbtn;
         }
     }
 }

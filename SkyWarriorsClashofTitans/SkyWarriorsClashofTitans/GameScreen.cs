@@ -29,7 +29,7 @@ namespace SkyWarriorsClashofTitans
         public GameScreen()
         {
             InitializeComponent();
-            Form1_Load();
+            //Form1_Load();
             updateScoreLabel();
             resetGame();
         }

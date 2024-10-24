@@ -19,15 +19,15 @@ namespace SkyWarriorsClashofTitans
 
         private void btn_no_hover(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
-            sound.Play();
+            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
+            //sound.Play();
             btnNo.Image = Properties.Resources.no_hover;
         }
 
         private void btn_yes_hover(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
-            sound.Play();
+            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
+            //sound.Play();
             btnYes.Image = Properties.Resources.yes_hover;
         }
 
@@ -48,8 +48,8 @@ namespace SkyWarriorsClashofTitans
 
         private void btnNo_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE1.wav");
-            sound.Play();
+            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE1.wav");
+            //sound.Play();
             this.Close();
         }
     }

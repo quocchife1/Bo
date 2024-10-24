@@ -265,6 +265,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GameIcon.ico" />
+    <None Include="Resources\OKbtn.png" />
+    <None Include="Resources\ok_hover.png" />
+    <None Include="Resources\select2.gif" />
+    <None Include="Resources\select1.gif" />
+    <None Include="Resources\select.gif" />
     <None Include="Resources\Enemy2-ezgif.com-rotate1.gif" />
     <None Include="Resources\F17-ezgif.com-rotate.gif" />
     <None Include="Resources\F16-ezgif.com-rotate.gif" />
