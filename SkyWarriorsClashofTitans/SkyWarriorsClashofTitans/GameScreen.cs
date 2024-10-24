@@ -306,6 +306,14 @@ namespace SkyWarriorsClashofTitans
         }
         #endregion
 
+        #region ShowGameOverForm
+        private void ShowGameOverForm()
+        {
+            GameOverForm gameOverForm = new GameOverForm();
+            gameOverForm.SetScore(score);
+            gameOverForm.ShowDialog();
+        }
+        #endregion
 
         #region Game over
         private void gameOver()
@@ -316,6 +324,7 @@ namespace SkyWarriorsClashofTitans
             //playerF9.BackColor = Color.FromArgb(100,0,0,0);
 
             gameTimer.Stop();
+            ShowGameOverForm();
         }
         #endregion
     }
