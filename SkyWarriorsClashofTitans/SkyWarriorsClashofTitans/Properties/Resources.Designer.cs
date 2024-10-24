@@ -863,28 +863,6 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pixel_art_illustration_military_jet_pixelated_jet_military_jet_war_pixelated_for_the_pixel_art_game_and_icon_for_website_and_game_old_school_retro_vector {
-            get {
-                object obj = ResourceManager.GetObject("pixel-art-illustration-military-jet-pixelated-jet-military-jet-war-pixelated-for-" +
-                        "the-pixel-art-game-and-icon-for-website-and-game-old-school-retro-vector", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pixel_art_illustration_military_jet_pixelated_jet_military_jet_war_pixelated_for_the_pixel_art_game_and_icon_for_website_and_game_old_school_retro_vector1 {
-            get {
-                object obj = ResourceManager.GetObject("pixel-art-illustration-military-jet-pixelated-jet-military-jet-war-pixelated-for-" +
-                        "the-pixel-art-game-and-icon-for-website-and-game-old-school-retro-vector1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap play_hover {
             get {
                 object obj = ResourceManager.GetObject("play_hover", resourceCulture);
