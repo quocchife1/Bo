@@ -43,15 +43,6 @@ namespace SkyWarriorsClashofTitans
             }
         }
 
-        private void playaudio(object sender, EventArgs e)
-        {
-            var basePath = System.AppDomain.CurrentDomain.BaseDirectory;
-            SoundPlayer player = new SoundPlayer();
-            player.SoundLocation = Path.Combine(basePath, @"./../../IAmaRobot.wav");
-            player.Load();
-            player.Play();
-        }
-
         private void btn_play_MouseHover(object sender, EventArgs e)
         {
             btn_play.Image = Properties.Resources.play_hover;
