@@ -1,53 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\",
+  "WorkspaceRootPath": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|d:\\github\\winforms\\skywarriorsclashoftitans\\skywarriorsclashoftitans\\pausescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|c:\\users\\dai nam\\desktop\\project game winform - ltw\\winforms commit 9\\winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\skywarriorsclashoftitans\\skywarriorsclashoftitans\\pausescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:pausescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|c:\\users\\dai nam\\desktop\\project game winform - ltw\\winforms commit 9\\winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\skywarriorsclashoftitans\\skywarriorsclashoftitans\\menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\shopscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:shopscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|c:\\users\\dai nam\\desktop\\project game winform - ltw\\winforms commit 9\\winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\skywarriorsclashoftitans\\skywarriorsclashoftitans\\gameoverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:gameoverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\pausescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:pausescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\quitpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:quitpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\settingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:settingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\shopscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:shopscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|c:\\users\\dai nam\\desktop\\project game winform - ltw\\winforms commit 9\\winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\skywarriorsclashoftitans\\skywarriorsclashoftitans\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\quitpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:quitpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\gameoverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|c:\\users\\dai nam\\desktop\\project game winform - ltw\\winforms commit 9\\winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\skywarriorsclashoftitans\\skywarriorsclashoftitans\\gameoverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6BF83D-C628-465A-83C8-D26C65463609}|SkyWarriorsClashofTitans.csproj|solutionrelative:gameoverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,166 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuScreen.cs",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\MenuScreen.cs",
-              "RelativeDocumentMoniker": "MenuScreen.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\MenuScreen.cs",
-              "RelativeToolTip": "MenuScreen.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T06:47:45.679Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PauseScreen.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\PauseScreen.cs",
-              "RelativeDocumentMoniker": "PauseScreen.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\PauseScreen.cs [Design]",
-              "RelativeToolTip": "PauseScreen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T01:36:48.819Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PauseScreen.cs",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\PauseScreen.cs",
-              "RelativeDocumentMoniker": "PauseScreen.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\PauseScreen.cs",
-              "RelativeToolTip": "PauseScreen.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAjwD0AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T01:37:00.031Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameScreen.cs",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameScreen.cs",
-              "RelativeDocumentMoniker": "GameScreen.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameScreen.cs",
-              "RelativeToolTip": "GameScreen.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAwCQAAAAkAAAAAAAAAA==",
+              "Title": "PauseScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\PauseScreen.cs",
+              "RelativeDocumentMoniker": "PauseScreen.cs",
+              "ToolTip": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\PauseScreen.cs [Design]",
+              "RelativeToolTip": "PauseScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T06:47:43.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QuitPanel.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\QuitPanel.cs",
-              "RelativeDocumentMoniker": "QuitPanel.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\QuitPanel.cs [Design]",
-              "RelativeToolTip": "QuitPanel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:17:52.803Z",
+              "WhenOpened": "2024-10-26T14:41:16.501Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MenuScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\MenuScreen.cs",
+              "RelativeDocumentMoniker": "MenuScreen.cs",
+              "ToolTip": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\MenuScreen.cs [Design]",
+              "RelativeToolTip": "MenuScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:15:59.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T14:30:51.544Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ShopScreen.cs",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\ShopScreen.cs",
-              "RelativeDocumentMoniker": "ShopScreen.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\ShopScreen.cs",
-              "RelativeToolTip": "ShopScreen.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAmwBUAAAAgAAAAAAAAAA==",
+              "Title": "GameOverForm.cs",
+              "DocumentMoniker": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameOverForm.cs",
+              "RelativeDocumentMoniker": "GameOverForm.cs",
+              "ToolTip": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameOverForm.cs",
+              "RelativeToolTip": "GameOverForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T06:47:54.29Z",
+              "WhenOpened": "2024-10-26T14:30:23.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "QuitPanel.cs",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\QuitPanel.cs",
-              "RelativeDocumentMoniker": "QuitPanel.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\QuitPanel.cs",
-              "RelativeToolTip": "QuitPanel.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:17:59.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "GameScreen.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameScreen.cs",
               "RelativeDocumentMoniker": "GameScreen.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameScreen.cs [Design]",
+              "ToolTip": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameScreen.cs [Design]",
               "RelativeToolTip": "GameScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T07:48:35.493Z",
+              "WhenOpened": "2024-10-26T14:30:00.384Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ShopScreen.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\ShopScreen.cs",
-              "RelativeDocumentMoniker": "ShopScreen.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\ShopScreen.cs [Design]",
-              "RelativeToolTip": "ShopScreen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T07:20:13.298Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SettingScreen.cs",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\SettingScreen.cs",
-              "RelativeDocumentMoniker": "SettingScreen.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\SettingScreen.cs",
-              "RelativeToolTip": "SettingScreen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T06:47:51.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GameOverForm.cs",
-              "DocumentMoniker": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameOverForm.cs",
+              "DocumentIndex": 2,
+              "Title": "GameOverForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameOverForm.cs",
               "RelativeDocumentMoniker": "GameOverForm.cs",
-              "ToolTip": "D:\\Github\\Winforms\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameOverForm.cs",
-              "RelativeToolTip": "GameOverForm.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dai Nam\\Desktop\\Project Game WInform - LTW\\Winforms Commit 9\\Winforms-220b0aae041c2207d187f37f7d6104c74602ec34\\SkyWarriorsClashofTitans\\SkyWarriorsClashofTitans\\GameOverForm.cs [Design]",
+              "RelativeToolTip": "GameOverForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T06:47:40.726Z"
+              "WhenOpened": "2024-10-26T14:29:35.253Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -143,5 +143,10 @@ namespace SkyWarriorsClashofTitans
             SettingScreen setting = new SettingScreen();
             setting.ShowDialog();
         }
+
+        private void MenuScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

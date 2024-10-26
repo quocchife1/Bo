@@ -39,8 +39,8 @@
             this.lblScore.AutoSize = true;
             this.lblScore.BackColor = System.Drawing.Color.Transparent;
             this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore.ForeColor = System.Drawing.Color.Red;
-            this.lblScore.Location = new System.Drawing.Point(339, 271);
+            this.lblScore.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.lblScore.Location = new System.Drawing.Point(278, 261);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(153, 54);
             this.lblScore.TabIndex = 1;
@@ -55,7 +55,7 @@
             this.lblPressEnter.BackColor = System.Drawing.Color.Transparent;
             this.lblPressEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPressEnter.ForeColor = System.Drawing.Color.LightGray;
-            this.lblPressEnter.Location = new System.Drawing.Point(213, 363);
+            this.lblPressEnter.Location = new System.Drawing.Point(193, 363);
             this.lblPressEnter.Name = "lblPressEnter";
             this.lblPressEnter.Size = new System.Drawing.Size(377, 38);
             this.lblPressEnter.TabIndex = 2;
@@ -66,7 +66,7 @@
             this.pictureBox1.Image = global::SkyWarriorsClashofTitans.Properties.Resources.GameOverLabel;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(802, 197);
+            this.pictureBox1.Size = new System.Drawing.Size(802, 202);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
