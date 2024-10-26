@@ -17,6 +17,7 @@ namespace SkyWarriorsClashofTitans
     public partial class MenuScreen : Form
     {
         WindowsMediaPlayer snd;
+        string equipped;
         public MenuScreen()
         {
             InitializeComponent();
@@ -34,6 +35,7 @@ namespace SkyWarriorsClashofTitans
             this.WindowState = FormWindowState.Maximized;
         }
         #endregion
+
 
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
@@ -90,13 +92,32 @@ namespace SkyWarriorsClashofTitans
             btn_quit.Image= Properties.Resources.QuitBtn;
         }
 
+        //private void ReadFile()
+        //{
+        //    string filePath = "D:\\Github\\Winforms\\Character.txt";
+
+        //    try
+        //    {
+        //        using (StreamReader reader = new StreamReader(filePath))
+        //        {
+        //            equipped = reader.ReadToEnd();
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show("Error");
+        //    }
+        //}
+ 
         private void btn_play_Click(object sender, EventArgs e)
         {
             //menuPanel.Hide();
             //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
             //sound.Play();
-            GameScreen gamePlay = new GameScreen();
-            gamePlay.ShowDialog();
+            //ReadFile();
+            //int save = int.Parse(equipped);
+            GameScreen gameScreen = new GameScreen();
+            gameScreen.ShowDialog();
         }
 
         private void btn_shop_Click(object sender, EventArgs e)

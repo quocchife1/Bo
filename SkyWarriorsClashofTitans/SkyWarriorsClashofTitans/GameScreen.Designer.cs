@@ -65,7 +65,7 @@
             this.bulletF9.BackColor = System.Drawing.Color.Transparent;
             this.bulletF9.Cursor = System.Windows.Forms.Cursors.Default;
             this.bulletF9.Image = global::SkyWarriorsClashofTitans.Properties.Resources.Bullet13_ezgif_com_crop;
-            this.bulletF9.Location = new System.Drawing.Point(158, 419);
+            this.bulletF9.Location = new System.Drawing.Point(187, 377);
             this.bulletF9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bulletF9.Name = "bulletF9";
             this.bulletF9.Size = new System.Drawing.Size(71, 30);
@@ -79,10 +79,10 @@
             this.playerF9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.playerF9.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.playerF9.Image = global::SkyWarriorsClashofTitans.Properties.Resources.F9_ezgif_com_crop;
-            this.playerF9.Location = new System.Drawing.Point(12, 396);
+            this.playerF9.Location = new System.Drawing.Point(12, 318);
             this.playerF9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.playerF9.Name = "playerF9";
-            this.playerF9.Size = new System.Drawing.Size(140, 77);
+            this.playerF9.Size = new System.Drawing.Size(169, 149);
             this.playerF9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.playerF9.TabIndex = 0;
             this.playerF9.TabStop = false;
@@ -141,7 +141,7 @@
             // 
             // Boss
             // 
-            this.Boss.Image = global::SkyWarriorsClashofTitans.Properties.Resources.Boss2;
+            this.Boss.Image = global::SkyWarriorsClashofTitans.Properties.Resources.Boss_1;
             this.Boss.Location = new System.Drawing.Point(831, 48);
             this.Boss.Name = "Boss";
             this.Boss.Size = new System.Drawing.Size(394, 688);

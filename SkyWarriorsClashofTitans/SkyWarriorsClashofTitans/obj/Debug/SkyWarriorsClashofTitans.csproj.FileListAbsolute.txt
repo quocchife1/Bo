@@ -55,3 +55,5 @@ C:\Users\Dai Nam\Desktop\Project Game WInform - LTW\Winforms Commit7\Winforms-75
 C:\Users\Dai Nam\Desktop\Project Game WInform - LTW\Winforms Commit7\Winforms-7576aa50725112eb07a5aa16cd0cf5dc80db4410\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.exe
 C:\Users\Dai Nam\Desktop\Project Game WInform - LTW\Winforms Commit7\Winforms-7576aa50725112eb07a5aa16cd0cf5dc80db4410\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.pdb
 C:\Users\Dai Nam\Desktop\Project Game WInform - LTW\Winforms Commit7\Winforms-7576aa50725112eb07a5aa16cd0cf5dc80db4410\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.GameOverForm.resources
+D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.GameOverForm.resources
+D:\Github\Winforms\SkyWarriorsClashofTitans\SkyWarriorsClashofTitans\obj\Debug\SkyWarriorsClashofTitans.PauseScreen.resources

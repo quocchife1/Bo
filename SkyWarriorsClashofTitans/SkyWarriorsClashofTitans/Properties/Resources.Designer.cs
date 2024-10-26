@@ -233,6 +233,36 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Boss_1 {
+            get {
+                object obj = ResourceManager.GetObject("Boss_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Boss_2 {
+            get {
+                object obj = ResourceManager.GetObject("Boss_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Boss_3 {
+            get {
+                object obj = ResourceManager.GetObject("Boss_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Boss2 {
             get {
                 object obj = ResourceManager.GetObject("Boss2", resourceCulture);
@@ -476,6 +506,16 @@ namespace SkyWarriorsClashofTitans.Properties {
         internal static System.Drawing.Bitmap craiyon2 {
             get {
                 object obj = ResourceManager.GetObject("craiyon2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap deco1 {
+            get {
+                object obj = ResourceManager.GetObject("deco1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -771,6 +811,16 @@ namespace SkyWarriorsClashofTitans.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GameOverLabel {
+            get {
+                object obj = ResourceManager.GetObject("GameOverLabel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] I_Am_a_Robot {
@@ -863,6 +913,116 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PauseLabel {
+            get {
+                object obj = ResourceManager.GetObject("PauseLabel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pl_18 {
+            get {
+                object obj = ResourceManager.GetObject("Pl_18", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pl_19 {
+            get {
+                object obj = ResourceManager.GetObject("Pl_19", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PL_F10 {
+            get {
+                object obj = ResourceManager.GetObject("PL_F10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pl_F11 {
+            get {
+                object obj = ResourceManager.GetObject("Pl_F11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pl_F12 {
+            get {
+                object obj = ResourceManager.GetObject("Pl_F12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pl_F13 {
+            get {
+                object obj = ResourceManager.GetObject("Pl_F13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pl_F14 {
+            get {
+                object obj = ResourceManager.GetObject("Pl_F14", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pl_F15 {
+            get {
+                object obj = ResourceManager.GetObject("Pl_F15", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pl_F16 {
+            get {
+                object obj = ResourceManager.GetObject("Pl_F16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pl_F9 {
+            get {
+                object obj = ResourceManager.GetObject("Pl_F9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap play_hover {
             get {
                 object obj = ResourceManager.GetObject("play_hover", resourceCulture);
@@ -906,6 +1066,26 @@ namespace SkyWarriorsClashofTitans.Properties {
         internal static System.Drawing.Bitmap QuitBtn {
             get {
                 object obj = ResourceManager.GetObject("QuitBtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resume_hover {
+            get {
+                object obj = ResourceManager.GetObject("resume_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ResumeBtn {
+            get {
+                object obj = ResourceManager.GetObject("ResumeBtn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1086,6 +1266,16 @@ namespace SkyWarriorsClashofTitans.Properties {
         internal static System.Drawing.Bitmap ShopBtn {
             get {
                 object obj = ResourceManager.GetObject("ShopBtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ShopLabel {
+            get {
+                object obj = ResourceManager.GetObject("ShopLabel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

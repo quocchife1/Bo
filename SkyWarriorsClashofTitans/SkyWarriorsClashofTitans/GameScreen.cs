@@ -23,6 +23,8 @@ namespace SkyWarriorsClashofTitans
         string notification;
         int countB = 0;
         int count = 0;
+
+        int charSelected;
         
         Random rand = new Random();
         WindowsMediaPlayer player;
@@ -32,7 +34,49 @@ namespace SkyWarriorsClashofTitans
             //Form1_Load();
             updateScoreLabel();
             resetGame();
+            //charSelected = choice;
+            updatePlayer();
         }
+
+        private void updatePlayer()
+        {
+            switch (charSelected)
+            {
+                case 1:
+                    playerF9.Image = Properties.Resources.Pl_F9;
+                    break;
+                case 2:
+                    playerF9.Image = Properties.Resources.PL_F10;
+                    break;
+                case 3:
+                    playerF9.Image = Properties.Resources.Pl_F11;
+                    break;
+                case 4:
+                    playerF9.Image = Properties.Resources.Pl_F12;
+                    break;
+                case 5:
+                    playerF9.Image = Properties.Resources.Pl_F13;
+                    break;
+                case 6:
+                    playerF9.Image = Properties.Resources.Pl_F14;
+                    break;
+                case 7:
+                    playerF9.Image = Properties.Resources.Pl_F15;
+                    break;
+                case 8:
+                    playerF9.Image = Properties.Resources.Pl_F16;
+                    break;
+                case 9:
+                    playerF9.Image = Properties.Resources.Pl_18;
+                    break;
+                case 10:
+                    playerF9.Image = Properties.Resources.Pl_19;
+                    break;
+                default:
+                    break;
+            }
+        }
+
         private void mainGameTimerEvent(object sender, EventArgs e)
         {
 
@@ -130,7 +174,12 @@ namespace SkyWarriorsClashofTitans
 
             if(e.KeyCode == Keys.Escape)
             {
+                gameTimer.Stop();
                 this.Close();
+            }
+            if(e.KeyCode == Keys.CapsLock)
+            {
+                PauseGame();
             }
         }
         private void keyisUp(object sender, KeyEventArgs e)
@@ -159,8 +208,8 @@ namespace SkyWarriorsClashofTitans
             {
                 shooting = true;
 
-                bulletF9.Left = playerF9.Left + 120;
-                bulletF9.Top = playerF9.Top + 23;
+                bulletF9.Left = playerF9.Left + 149;
+                bulletF9.Top = playerF9.Top + 61;
             }
 
             if(e.KeyCode == Keys.Enter && isGameOver == true)
@@ -303,6 +352,8 @@ namespace SkyWarriorsClashofTitans
             bulletF9.Left = -300;
             shooting = false;
             txtScore.Visible = true;
+
+            updateScore(score);
         }
         #endregion
 
@@ -315,6 +366,30 @@ namespace SkyWarriorsClashofTitans
         }
         #endregion
 
+        private void ShowPauseScreen()
+        {
+            using (PauseScreen pauseScreen = new PauseScreen())
+            {
+                var result = pauseScreen.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    gameTimer.Start();
+                }
+                else
+                {
+                    if(result == DialogResult.Cancel)
+                    {
+                        Application.Exit();
+                    }
+                }
+            }
+        }
+
+        private void PauseGame()
+        {
+            gameTimer.Stop();
+            ShowPauseScreen();
+        }
         #region Game over
         private void gameOver()
         {
@@ -322,6 +397,7 @@ namespace SkyWarriorsClashofTitans
             txtScore.Visible = false;
 
             //playerF9.BackColor = Color.FromArgb(100,0,0,0);
+
 
             gameTimer.Stop();
             ShowGameOverForm();

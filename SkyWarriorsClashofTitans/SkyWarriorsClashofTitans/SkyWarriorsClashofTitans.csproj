@@ -66,6 +66,12 @@
     <Compile Include="GameScreen.Designer.cs">
       <DependentUpon>GameScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="PauseScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PauseScreen.Designer.cs">
+      <DependentUpon>PauseScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuitPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GameScreen.resx">
       <DependentUpon>GameScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PauseScreen.resx">
+      <DependentUpon>PauseScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuitPanel.resx">
       <DependentUpon>QuitPanel.cs</DependentUpon>
@@ -274,6 +283,24 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GameIcon.ico" />
+    <None Include="Resources\deco1.gif" />
+    <None Include="Resources\resume_hover.png" />
+    <None Include="Resources\PauseLabel.png" />
+    <None Include="Resources\ResumeBtn.png" />
+    <None Include="Resources\Boss_3.gif" />
+    <None Include="Resources\Boss_2.gif" />
+    <None Include="Resources\Boss_1.gif" />
+    <None Include="Resources\ShopLabel.png" />
+    <None Include="Resources\Pl_191.gif" />
+    <None Include="Resources\Pl_182.gif" />
+    <None Include="Resources\Pl_F161.gif" />
+    <None Include="Resources\Pl_F151.gif" />
+    <None Include="Resources\Pl_F141.png" />
+    <None Include="Resources\Pl_F131.gif" />
+    <None Include="Resources\Pl_F121.gif" />
+    <None Include="Resources\Pl_F111.gif" />
+    <None Include="Resources\PL_F101.gif" />
+    <None Include="Resources\Pl_F91.gif" />
     <None Include="Resources\MenuPanel3.png" />
     <None Include="Resources\OKbtn.png" />
     <None Include="Resources\ok_hover.png" />
