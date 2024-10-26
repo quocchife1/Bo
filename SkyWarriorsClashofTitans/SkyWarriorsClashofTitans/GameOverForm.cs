@@ -17,10 +17,13 @@ namespace SkyWarriorsClashofTitans
             InitializeComponent();
             this.KeyPreview = true;
         }
+
+
         public void SetScore(int score)
         {
             lblScore.Text = "Score: " + score.ToString();
         }
+
 
         private void GameOverForm_KeyDown(object sender, KeyEventArgs e)
         {

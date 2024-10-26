@@ -9,12 +9,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WMPLib;
+using System.Media;
+using System.IO;
+
 
 namespace SkyWarriorsClashofTitans
 {
     public partial class GameScreen : Form
     {
         bool goLeft, goRight, goDown, goUp, shooting, isGameOver;
+        bool isFormClosing = false;
         int score;
         int highestScrore;
         int playerSpeed = 12;
@@ -23,20 +27,99 @@ namespace SkyWarriorsClashofTitans
         string notification;
         int countB = 0;
         int count = 0;
-
-        int charSelected;
-        
+        int charSelected;        
         Random rand = new Random();
         WindowsMediaPlayer player;
-        public GameScreen()
+        private SoundPlayer shootSound;
+        private SoundPlayer enemyDeadSound;
+        private UnmanagedMemoryStream enemyDeadStream;
+
+
+        public GameScreen(int selectedChar)
         {
             InitializeComponent();
+
+            this.FormClosing += GameScreen_FormClosing;
+
+            charSelected = selectedChar;
+            LoadShootSound();
+            updatePlayer();
+
+            string tempPath = Path.Combine(Path.GetTempPath(), "SE1.wav");
+            File.WriteAllBytes(tempPath, Properties.Resources.SE1);
+            shootSound = new SoundPlayer(tempPath);
+
+            enemyDeadStream = Properties.Resources.EnemyDeadSFX;
+            enemyDeadSound = new SoundPlayer(enemyDeadStream);
+
             //Form1_Load();
             updateScoreLabel();
             resetGame();
             //charSelected = choice;
             updatePlayer();
         }
+
+        private void LoadShootSound()
+        {
+            string tempPath = Path.Combine(Path.GetTempPath(), "SE1.wav");
+
+            switch (charSelected)
+            {
+                case 1:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE1);
+                    break;
+                case 2:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE2);
+                    break;
+                case 3:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE3);
+                    break;
+                case 4:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE4);
+                    break;
+                case 5:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE5);
+                    break;
+                case 6:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE6);
+                    break;
+                case 7:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE7);
+                    break;
+                case 8:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE8);
+                    break;
+                case 9:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE9);
+                    break;
+                case 10:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE1);
+                    break;
+                default:
+                    File.WriteAllBytes(tempPath, Properties.Resources.SE1);
+                    break;
+            }
+
+            shootSound = new SoundPlayer(tempPath);
+        }
+
+
+        private void GameScreen_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            isFormClosing = true;
+            StopGame();
+
+            if (enemyDeadStream != null)
+            {
+                enemyDeadStream.Close();
+                enemyDeadStream = null;
+            }
+        }
+        private void StopGame()
+        {
+            gameTimer.Stop();
+        }
+
 
         private void updatePlayer()
         {
@@ -75,14 +158,16 @@ namespace SkyWarriorsClashofTitans
                 default:
                     break;
             }
+            LoadShootSound();
         }
 
+        
         private void mainGameTimerEvent(object sender, EventArgs e)
         {
-
+            
 
             #region End condition
-
+            
             if (enemyOne.Left < -300 || enemyTwo.Left < -300 || enemyThree.Left < -300 || enemyFour.Left < -300)
             {
                 gameOver();
@@ -210,6 +295,8 @@ namespace SkyWarriorsClashofTitans
 
                 bulletF9.Left = playerF9.Left + 149;
                 bulletF9.Top = playerF9.Top + 61;
+
+                shootSound.Play();
             }
 
             if(e.KeyCode == Keys.Enter && isGameOver == true)
@@ -247,6 +334,8 @@ namespace SkyWarriorsClashofTitans
                 enemyOne.Top = rand.Next(10, 200);
                 enemyOne.Left = rand.Next(1900, 2200);
                 shooting = false;
+
+                enemyDeadSound.Play();
             }
             if (bulletF9.Bounds.IntersectsWith(enemyTwo.Bounds))
             {
@@ -257,6 +346,8 @@ namespace SkyWarriorsClashofTitans
                 enemyTwo.Left = rand.Next(1900, 2200);
                 shooting = false;
 
+                enemyDeadSound.Play();
+
             }
             if (bulletF9.Bounds.IntersectsWith(enemyThree.Bounds))
             {
@@ -266,6 +357,8 @@ namespace SkyWarriorsClashofTitans
                 enemyThree.Top = rand.Next(410, 500);
                 enemyThree.Left = rand.Next(1900, 2200);
                 shooting = false;
+
+                enemyDeadSound.Play();
             }
 
             if (bulletF9.Bounds.IntersectsWith(enemyFour.Bounds))
@@ -276,6 +369,8 @@ namespace SkyWarriorsClashofTitans
                 enemyFour.Top = rand.Next(610, 680);
                 enemyFour.Left = rand.Next(1900, 2200);
                 shooting = false;
+
+                enemyDeadSound.Play();
             }
         }
 
@@ -370,6 +465,7 @@ namespace SkyWarriorsClashofTitans
         {
             using (PauseScreen pauseScreen = new PauseScreen())
             {
+                MenuScreen menuScreen = new MenuScreen();
                 var result = pauseScreen.ShowDialog();
                 if (result == DialogResult.OK)
                 {
@@ -379,17 +475,21 @@ namespace SkyWarriorsClashofTitans
                 {
                     if(result == DialogResult.Cancel)
                     {
-                        Application.Exit();
+                        //Application.Exit();
+                        this.Close();
                     }
                 }
             }
         }
+
 
         private void PauseGame()
         {
             gameTimer.Stop();
             ShowPauseScreen();
         }
+
+
         #region Game over
         private void gameOver()
         {
@@ -400,7 +500,10 @@ namespace SkyWarriorsClashofTitans
 
 
             gameTimer.Stop();
-            ShowGameOverForm();
+            if (!isFormClosing)
+            {
+                ShowGameOverForm();
+            }
         }
         #endregion
     }

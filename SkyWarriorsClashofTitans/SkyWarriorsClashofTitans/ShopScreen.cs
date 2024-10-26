@@ -148,7 +148,11 @@ namespace SkyWarriorsClashofTitans
 
         private void OK_btn_Click(object sender, EventArgs e)
         {
-            //WriteFile();
+            GameScreen gameScreen = new GameScreen(charSelected);
+
+            this.Hide();
+            gameScreen.ShowDialog();
+            this.Close();
         }
     }
 }

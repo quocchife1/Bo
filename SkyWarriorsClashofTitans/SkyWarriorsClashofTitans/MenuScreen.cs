@@ -18,6 +18,9 @@ namespace SkyWarriorsClashofTitans
     {
         WindowsMediaPlayer snd;
         string equipped;
+
+        private int selectedChar;
+
         public MenuScreen()
         {
             InitializeComponent();
@@ -111,17 +114,19 @@ namespace SkyWarriorsClashofTitans
  
         private void btn_play_Click(object sender, EventArgs e)
         {
+            selectedChar = 1;
             //menuPanel.Hide();
             //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
             //sound.Play();
             //ReadFile();
             //int save = int.Parse(equipped);
-            GameScreen gameScreen = new GameScreen();
+            GameScreen gameScreen = new GameScreen(selectedChar);
             gameScreen.ShowDialog();
         }
 
         private void btn_shop_Click(object sender, EventArgs e)
         {
+            selectedChar = 2;
             //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
             //sound.Play();
             ShopScreen shopscreen = new ShopScreen();
@@ -130,6 +135,7 @@ namespace SkyWarriorsClashofTitans
 
         private void btn_quit_Click(object sender, EventArgs e)
         {
+            selectedChar = 4;
             //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
             //sound.Play();
             QuitPanel quitPanel = new QuitPanel();
@@ -138,6 +144,7 @@ namespace SkyWarriorsClashofTitans
 
         private void btn_settings_Click(object sender, EventArgs e)
         {
+            selectedChar = 3;
             //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
             //sound.Play();
             SettingScreen setting = new SettingScreen();
