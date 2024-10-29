@@ -16,29 +16,26 @@ namespace SkyWarriorsClashofTitans
 {
     public partial class MenuScreen : Form
     {
-        WindowsMediaPlayer snd;
+        public static WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
         string equipped;
-
-        private int selectedChar;
 
         public MenuScreen()
         {
             InitializeComponent();
-            //MenuScreen_Load();
-            //wplayer.URL = (@"D:\Github\Winforms\Sound\IAmaRobot.wav");
+            wplayer.URL = (@"D:\Github\Winforms\Sound\IAmaRobot.wav");
+            wplayer.settings.setMode("loop",true);
             wplayer.controls.play();
         }
 
-        public static WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
-        #region Full screen
-        private void MenuScreen_Load()
+        protected override CreateParams CreateParams
         {
-            this.TopMost = true;
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
+            get
+            {
+                CreateParams handleParams = base.CreateParams;
+                handleParams.ExStyle |= 0x02000000;
+                return handleParams;
+            }
         }
-        #endregion
-
 
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
@@ -51,28 +48,28 @@ namespace SkyWarriorsClashofTitans
         private void btn_play_MouseHover(object sender, EventArgs e)
         {
             btn_play.Image = Properties.Resources.play_hover;
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
-            //sound.Play();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
+            sound.Play();
         }
 
         private void btn_shop_MouseHover(object sender, EventArgs e)
         {
             btn_shop.Image = Properties.Resources.shop_hover;
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
-            //sound.Play();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
+            sound.Play();
         }
         private void btn_settings_MouseHover(object sender, EventArgs e)
         {
             btn_settings.Image = Properties.Resources.settings_hover;
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
-            //sound.Play();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
+            sound.Play();
         }
 
         private void btn_quit_MouseHover(object sender, EventArgs e)
         {
             btn_quit.Image = Properties.Resources.quit_hover;
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
-            //sound.Play();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
+            sound.Play();
         }
 
         private void btn_play_MouseLeave(object sender, EventArgs e)
@@ -95,65 +92,58 @@ namespace SkyWarriorsClashofTitans
             btn_quit.Image= Properties.Resources.QuitBtn;
         }
 
-        //private void ReadFile()
-        //{
-        //    string filePath = "D:\\Github\\Winforms\\Character.txt";
+        private void ReadFile()
+        {
+            string filePath = @"D:\Github\Winforms\Character.txt";
 
-        //    try
-        //    {
-        //        using (StreamReader reader = new StreamReader(filePath))
-        //        {
-        //            equipped = reader.ReadToEnd();
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show("Error");
-        //    }
-        //}
- 
+            try
+            {
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    equipped = reader.ReadToEnd();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error");
+            }
+        }
+
         private void btn_play_Click(object sender, EventArgs e)
         {
-            selectedChar = 1;
-            //menuPanel.Hide();
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
-            //sound.Play();
-            //ReadFile();
-            //int save = int.Parse(equipped);
-            GameScreen gameScreen = new GameScreen(selectedChar);
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
+            sound.Play();
+
+
+            ReadFile();
+            int save = int.Parse(equipped);
+            GameScreen gameScreen = new GameScreen(save);
+
             gameScreen.ShowDialog();
         }
 
         private void btn_shop_Click(object sender, EventArgs e)
         {
-            selectedChar = 2;
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
-            //sound.Play();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
+            sound.Play();
             ShopScreen shopscreen = new ShopScreen();
             shopscreen.ShowDialog();
         }
 
         private void btn_quit_Click(object sender, EventArgs e)
         {
-            selectedChar = 4;
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
-            //sound.Play();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
+            sound.Play();
             QuitPanel quitPanel = new QuitPanel();
             quitPanel.ShowDialog();
         }
 
         private void btn_settings_Click(object sender, EventArgs e)
         {
-            selectedChar = 3;
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
-            //sound.Play();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
+            sound.Play();
             SettingScreen setting = new SettingScreen();
             setting.ShowDialog();
-        }
-
-        private void MenuScreen_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -133,6 +133,9 @@
   <data name="SE4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SE4.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Boss4-ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss4-ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PauseLabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PauseLabel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,11 +160,23 @@
   <data name="F14" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F14.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Boss3-ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss3-ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PL_F10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PL_F101.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="deco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deco1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BGquit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BGquit1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backgrounds1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backgrounds1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Boss_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boss_3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +187,8 @@
   <data name="F9-ezgif.com-crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F9-ezgif.com-crop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="I Am a Robot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\I Am a Robot.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="fullV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fullV.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EBulletF9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EBulletF9.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,17 +199,14 @@
   <data name="SettingTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SettingTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Enemy11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Enemy11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="100V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\100V1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="F9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F9.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="F11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="craiyon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\craiyon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="F12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F12.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,11 +229,8 @@
   <data name="PlayBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlayBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="F-151" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\F-151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Pl_F14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pl_F141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Pl_F11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pl_F111.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bullet7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bullet7.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,14 +238,17 @@
   <data name="Boss5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boss5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Bullet12-unscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bullet12-unscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Bullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bullet.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pl_F9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pl_F91.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pl_F13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pl_F131.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Enemy2-ezgif1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy2-ezgif.com-rotate1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="75V" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\75V1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,20 +262,14 @@
   <data name="Bullet11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bullet11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OKbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OKbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Back_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Back_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SE3.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="no_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="25V" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\25V1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="craiyon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\craiyon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="select2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="play_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\play_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,17 +277,11 @@
   <data name="Enemy21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Enemy21.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Enemy1-ezgif.com-crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Enemy1-ezgif.com-crop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Enemy11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="no_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ResumeBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ResumeBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Boss6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Boss6.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="YesBtn (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YesBtn (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pl_F15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pl_F151.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -289,14 +289,17 @@
   <data name="Enemy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Enemy2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="F16-ezgif.com-rotate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F16-ezgif.com-rotate.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SE2.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Enemy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Enemy1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="F-15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\F-15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="F-151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F-151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SettingsBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SettingsBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,14 +313,17 @@
   <data name="50V" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\50V1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pl_F11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pl_F111.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OKbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OKbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F-15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F-15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SE6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SE6.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Boss21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Boss21.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backgrounds8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backgrounds8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Enemy3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Enemy3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,8 +337,8 @@
   <data name="Bullet6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bullet6.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Boss4-ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Boss4-ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Boss6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss6.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bullet5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bullet5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -340,14 +346,11 @@
   <data name="Boss2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boss2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="select2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\select2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backgrounds10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backgrounds10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="F17" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F17.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BGquit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BGquit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="F18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F18.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,14 +358,17 @@
   <data name="craiyon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\craiyon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Bullet13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bullet13.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BulletF9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BulletF9.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Boss" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boss.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Backgrounds1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Backgrounds1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Boss21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss21.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Boss_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boss_2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -379,8 +385,8 @@
   <data name="F13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\F13.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Enemy2-ezgif1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Enemy2-ezgif.com-rotate1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Pl_F14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pl_F141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MenuPanel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuPanel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -397,6 +403,9 @@
   <data name="SE9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SE9.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="EnemyDeadSFX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnemyDeadSFX.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Explosion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Explosion1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -409,8 +418,11 @@
   <data name="BackBtn (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BackBtn (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="F16-ezgif.com-rotate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\F16-ezgif.com-rotate.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Pl_F13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pl_F131.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backgrounds9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backgrounds9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Enemy2-ezgif.com-rotate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Enemy2-ezgif.com-rotate.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -424,14 +436,14 @@
   <data name="ShopBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ShopBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bullet12-unscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bullet12-unscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="craiyon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\craiyon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SE7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SE7.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="YesBtn (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\YesBtn (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="I Am a Robot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I Am a Robot.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SettingBtn_crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SettingBtn_crop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -439,14 +451,20 @@
   <data name="resume_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\resume_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="100V" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\100V1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Enemy1-ezgif.com-crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy1-ezgif.com-crop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Boss_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boss_1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bullet13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bullet13.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="craiyon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\craiyon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25V1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backgrounds11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backgrounds11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bullet8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bullet8.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -454,14 +472,14 @@
   <data name="Backgrounds3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Backgrounds3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BGquit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BGquit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pl_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pl_191.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fullV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fullV.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SE3.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Backgrounds31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Backgrounds31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -469,8 +487,11 @@
   <data name="NoBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NoBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Boss3-ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Boss3-ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sound_Shotting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sound_Shotting.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ResumeBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResumeBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="yes_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\yes_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -487,10 +508,7 @@
   <data name="Pl_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pl_182.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="deco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deco1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EnemyDeadSFX" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EnemyDeadSFX.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Enemy31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy31.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

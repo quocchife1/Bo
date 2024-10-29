@@ -191,16 +191,18 @@
             // 
             // MenuScreen
             // 
+            this.BackgroundImage = global::SkyWarriorsClashofTitans.Properties.Resources.Backgrounds7;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1527, 784);
+            this.ControlBox = false;
             this.Controls.Add(this.BackgroundMusic);
             this.Controls.Add(this.menuPanel);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuScreen";
             this.Text = "Sky Warrios: Clash of Tians";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.MenuScreen_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyIsDown);
             ((System.ComponentModel.ISupportInitialize)(this.BackgroundMusic)).EndInit();
             this.menuPanel.ResumeLayout(false);

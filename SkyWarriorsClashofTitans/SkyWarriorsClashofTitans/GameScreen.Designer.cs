@@ -39,6 +39,7 @@
             this.enemyFour = new System.Windows.Forms.PictureBox();
             this.txtScore = new System.Windows.Forms.Label();
             this.Boss = new System.Windows.Forms.PictureBox();
+            this.BossHealth = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bulletF9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerF9)).BeginInit();
@@ -132,6 +133,7 @@
             // txtScore
             // 
             this.txtScore.AutoSize = true;
+            this.txtScore.BackColor = System.Drawing.Color.Transparent;
             this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtScore.Location = new System.Drawing.Point(28, 23);
             this.txtScore.Name = "txtScore";
@@ -141,7 +143,8 @@
             // 
             // Boss
             // 
-            this.Boss.Image = global::SkyWarriorsClashofTitans.Properties.Resources.Boss_1;
+            this.Boss.BackColor = System.Drawing.Color.Transparent;
+            this.Boss.Image = global::SkyWarriorsClashofTitans.Properties.Resources.Boss_2;
             this.Boss.Location = new System.Drawing.Point(831, 48);
             this.Boss.Name = "Boss";
             this.Boss.Size = new System.Drawing.Size(394, 688);
@@ -149,12 +152,27 @@
             this.Boss.TabIndex = 4;
             this.Boss.TabStop = false;
             // 
+            // BossHealth
+            // 
+            this.BossHealth.BackColor = System.Drawing.Color.White;
+            this.BossHealth.ForeColor = System.Drawing.Color.Red;
+            this.BossHealth.Location = new System.Drawing.Point(460, 19);
+            this.BossHealth.Maximum = 10;
+            this.BossHealth.Name = "BossHealth";
+            this.BossHealth.Size = new System.Drawing.Size(658, 23);
+            this.BossHealth.Step = 1;
+            this.BossHealth.TabIndex = 5;
+            this.BossHealth.Value = 10;
+            this.BossHealth.Visible = false;
+            // 
             // GameScreen
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.BackgroundImage = global::SkyWarriorsClashofTitans.Properties.Resources.Backgrounds11;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1527, 784);
+            this.Controls.Add(this.BossHealth);
             this.Controls.Add(this.bulletF9);
             this.Controls.Add(this.Boss);
             this.Controls.Add(this.txtScore);
@@ -163,13 +181,15 @@
             this.Controls.Add(this.enemyFour);
             this.Controls.Add(this.enemyThree);
             this.Controls.Add(this.enemyTwo);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "GameScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sky Warrios: Clash of Tians";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.GameScreen_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisUp);
             ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).EndInit();
@@ -195,6 +215,7 @@
         private System.Windows.Forms.PictureBox enemyFour;
         private System.Windows.Forms.Label txtScore;
         private System.Windows.Forms.PictureBox Boss;
+        private System.Windows.Forms.ProgressBar BossHealth;
     }
 }
 

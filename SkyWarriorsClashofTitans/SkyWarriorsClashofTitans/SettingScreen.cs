@@ -15,16 +15,16 @@ namespace SkyWarriorsClashofTitans
         public SettingScreen()
         {
             InitializeComponent();
-            //SettingScreen_Load();
         }
-        #region Full screen
-        private void SettingScreen_Load()
+        protected override CreateParams CreateParams
         {
-            this.TopMost = true;
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
+            get
+            {
+                CreateParams handleParams = base.CreateParams;
+                handleParams.ExStyle |= 0x02000000;
+                return handleParams;
+            }
         }
-        #endregion
 
         private void Volume_Scroll(object sender, EventArgs e)
         {
@@ -57,8 +57,8 @@ namespace SkyWarriorsClashofTitans
 
         private void btn_back_MouseHover(object sender, EventArgs e)
         {
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE2.wav");
-            //sound.Play();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
+            sound.Play();
             btn_back.Image = Properties.Resources.Back_hover;
         }
 
@@ -69,8 +69,8 @@ namespace SkyWarriorsClashofTitans
 
         private void btn_back_Click(object sender, EventArgs e)
         {
-            //System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\WinForm\Fighter Jet\Sound\SE1.wav");
-            //sound.Play();
+            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
+            sound.Play();
             this.Close();
         }
     }

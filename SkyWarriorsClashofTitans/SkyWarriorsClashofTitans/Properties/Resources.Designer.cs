@@ -143,6 +143,26 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Backgrounds10 {
+            get {
+                object obj = ResourceManager.GetObject("Backgrounds10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Backgrounds11 {
+            get {
+                object obj = ResourceManager.GetObject("Backgrounds11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Backgrounds2 {
             get {
                 object obj = ResourceManager.GetObject("Backgrounds2", resourceCulture);
@@ -196,6 +216,26 @@ namespace SkyWarriorsClashofTitans.Properties {
         internal static System.Drawing.Bitmap Backgrounds7 {
             get {
                 object obj = ResourceManager.GetObject("Backgrounds7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Backgrounds8 {
+            get {
+                object obj = ResourceManager.GetObject("Backgrounds8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Backgrounds9 {
+            get {
+                object obj = ResourceManager.GetObject("Backgrounds9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -606,6 +646,16 @@ namespace SkyWarriorsClashofTitans.Properties {
         internal static System.Drawing.Bitmap Enemy3 {
             get {
                 object obj = ResourceManager.GetObject("Enemy3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Enemy31 {
+            get {
+                object obj = ResourceManager.GetObject("Enemy31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1286,6 +1336,16 @@ namespace SkyWarriorsClashofTitans.Properties {
             get {
                 object obj = ResourceManager.GetObject("ShopLabel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sound_Shotting {
+            get {
+                object obj = ResourceManager.GetObject("Sound_Shotting", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

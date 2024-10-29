@@ -111,15 +111,18 @@
             this.Volume.Name = "Volume";
             this.Volume.Size = new System.Drawing.Size(422, 56);
             this.Volume.TabIndex = 0;
-            this.Volume.Value = 50;
+            this.Volume.Value = 100;
             this.Volume.Scroll += new System.EventHandler(this.Volume_Scroll);
             // 
             // SettingScreen
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.BackgroundImage = global::SkyWarriorsClashofTitans.Properties.Resources.Backgrounds7;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1527, 784);
+            this.ControlBox = false;
             this.Controls.Add(this.SettingPanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SettingScreen";
             this.Text = "SettingScreen";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

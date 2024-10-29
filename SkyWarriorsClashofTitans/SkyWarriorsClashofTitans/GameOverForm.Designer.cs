@@ -40,7 +40,7 @@
             this.lblScore.BackColor = System.Drawing.Color.Transparent;
             this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lblScore.Location = new System.Drawing.Point(278, 261);
+            this.lblScore.Location = new System.Drawing.Point(332, 260);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(153, 54);
             this.lblScore.TabIndex = 1;
@@ -55,7 +55,7 @@
             this.lblPressEnter.BackColor = System.Drawing.Color.Transparent;
             this.lblPressEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPressEnter.ForeColor = System.Drawing.Color.LightGray;
-            this.lblPressEnter.Location = new System.Drawing.Point(193, 363);
+            this.lblPressEnter.Location = new System.Drawing.Point(228, 366);
             this.lblPressEnter.Name = "lblPressEnter";
             this.lblPressEnter.Size = new System.Drawing.Size(377, 38);
             this.lblPressEnter.TabIndex = 2;
@@ -73,8 +73,8 @@
             // 
             // GameOverForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);

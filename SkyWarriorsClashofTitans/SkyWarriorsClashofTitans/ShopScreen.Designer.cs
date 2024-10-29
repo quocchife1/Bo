@@ -239,7 +239,6 @@
             // slot1
             // 
             this.slot1.BackColor = System.Drawing.Color.Transparent;
-            this.slot1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.slot1.Image = global::SkyWarriorsClashofTitans.Properties.Resources.Pl_F9;
             this.slot1.Location = new System.Drawing.Point(122, 182);
             this.slot1.Name = "slot1";
@@ -251,9 +250,8 @@
             // 
             // selectBorder
             // 
-            this.selectBorder.BackgroundImage = global::SkyWarriorsClashofTitans.Properties.Resources.select2;
-            this.selectBorder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.selectBorder.Image = global::SkyWarriorsClashofTitans.Properties.Resources.select1;
+            this.selectBorder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.selectBorder.Image = global::SkyWarriorsClashofTitans.Properties.Resources.select;
             this.selectBorder.Location = new System.Drawing.Point(100, 156);
             this.selectBorder.Name = "selectBorder";
             this.selectBorder.Size = new System.Drawing.Size(213, 202);
@@ -264,10 +262,14 @@
             // ShopScreen
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.BackColor = System.Drawing.Color.Cyan;
+            this.BackColor = System.Drawing.Color.Navy;
+            this.BackgroundImage = global::SkyWarriorsClashofTitans.Properties.Resources.Backgrounds9;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1527, 784);
+            this.ControlBox = false;
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.ShopPanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ShopScreen";
             this.Text = "ShopScreen";

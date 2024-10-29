@@ -300,6 +300,11 @@
     <Content Include="GameIcon.ico" />
     <None Include="Resources\SE9.wav" />
     <None Include="Resources\EnemyDeadSFX.wav" />
+    <None Include="Resources\Backgrounds8.jpg" />
+    <None Include="Resources\Backgrounds9.jpg" />
+    <None Include="Resources\Backgrounds10.jpg" />
+    <None Include="Resources\Backgrounds11.jpg" />
+    <None Include="Resources\Enemy31.gif" />
     <Content Include="Resources\I Am a Robot.mp3" />
     <Content Include="Resources\IAmaRobot.wav" />
     <Content Include="Resources\SE1.wav" />
