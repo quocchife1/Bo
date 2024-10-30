@@ -21,7 +21,6 @@ namespace SkyWarriorsClashofTitans
         bool goLeft, goRight, goDown, goUp, shooting, isGameOver;
         bool isFormClosing = false;
         int score;
-        int highestScrore;
         int playerSpeed = 12;
         int enemySpeed;
         int bulletSpeed;
@@ -31,8 +30,8 @@ namespace SkyWarriorsClashofTitans
         int charSelected;        
         Random rand = new Random();
         WindowsMediaPlayer player;
-        private SoundPlayer shootSound;
-        private SoundPlayer enemyDeadSound;
+        SoundPlayer shootSound;
+        SoundPlayer enemyDeadSound;
         private UnmanagedMemoryStream enemyDeadStream;
         public GameScreen(int choice)
  
@@ -41,18 +40,21 @@ namespace SkyWarriorsClashofTitans
 
             this.FormClosing += GameScreen_FormClosing;
 
-            LoadShootSound();
             updatePlayer();
-
             updateScoreLabel();
             resetGame();
             charSelected = choice;
             updatePlayer();
         }
-        private void GameScreen_Load(object sender, EventArgs e)
+        private void playEnemyDeadSound()
         {
-            enemyDeadStream = Properties.Resources.EnemyDeadSFX;
-            enemyDeadSound = new SoundPlayer(enemyDeadStream);
+            enemyDeadSound = new SoundPlayer(@"EnemyDeadSFX.wav");
+            enemyDeadSound.Play();
+        }
+        private void playShootSound()
+        {
+            shootSound = new SoundPlayer(@"Sound_Shotting.wav");
+            shootSound.Play();
         }
 
         protected override CreateParams CreateParams
@@ -65,47 +67,6 @@ namespace SkyWarriorsClashofTitans
             }
         }
 
-        private void LoadShootSound()
-        {
-            string tempPath = Path.Combine(Path.GetTempPath(), "Sound_Shotting.wav");
-            switch (charSelected)
-            {
-                case 1:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                case 2:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                case 3:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                case 4:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                case 5:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                case 6:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                case 7:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                case 8:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                case 9:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                case 10:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-                default:
-                    File.WriteAllBytes(tempPath, Properties.Resources.Sound_Shotting);
-                    break;
-            }
-            shootSound = new SoundPlayer(tempPath);
-        }
 
 
         private void GameScreen_FormClosing(object sender, FormClosingEventArgs e)
@@ -162,7 +123,6 @@ namespace SkyWarriorsClashofTitans
                 default:
                     break;
             }
-            LoadShootSound();
         }
 
         
@@ -294,7 +254,7 @@ namespace SkyWarriorsClashofTitans
                 bulletF9.Top = playerF9.Top + 61;
 
 
-                shootSound.Play();
+                playShootSound();
 
             }
 
@@ -333,7 +293,7 @@ namespace SkyWarriorsClashofTitans
                 enemyOne.Top = rand.Next(10, 200);
                 enemyOne.Left = rand.Next(1900, 2200);
                 shooting = false;
-                enemyDeadSound.Play();
+                playEnemyDeadSound();
             }
             if (bulletF9.Bounds.IntersectsWith(enemyTwo.Bounds))
             {
@@ -342,8 +302,7 @@ namespace SkyWarriorsClashofTitans
                 enemyTwo.Top = rand.Next(210, 400);
                 enemyTwo.Left = rand.Next(1900, 2200);
                 shooting = false;
-
-                enemyDeadSound.Play();
+                playEnemyDeadSound();
 
             }
             if (bulletF9.Bounds.IntersectsWith(enemyThree.Bounds))
@@ -353,8 +312,7 @@ namespace SkyWarriorsClashofTitans
                 enemyThree.Top = rand.Next(410, 500);
                 enemyThree.Left = rand.Next(1900, 2200);
                 shooting = false;
-
-                enemyDeadSound.Play();
+                playEnemyDeadSound();
             }
 
             if (bulletF9.Bounds.IntersectsWith(enemyFour.Bounds))
@@ -364,8 +322,7 @@ namespace SkyWarriorsClashofTitans
                 enemyFour.Top = rand.Next(610, 680);
                 enemyFour.Left = rand.Next(1900, 2200);
                 shooting = false;
-
-                enemyDeadSound.Play();
+                playEnemyDeadSound();
             }
         }
         private void bossWave()
@@ -378,13 +335,13 @@ namespace SkyWarriorsClashofTitans
 
                 if (bulletF9.Bounds.IntersectsWith(Boss.Bounds))
                 {
-                    enemyDeadSound.Play();
+                    playEnemyDeadSound();
                     countB -= 1;
                     BossHealth.Value = countB;
                     shooting = false;
                     if (countB == 0)
                     {
-                        enemyDeadSound.Play();
+                        playEnemyDeadSound();
                         updateScore(1);
                         count += 1;
                         Boss.Top = 48;
@@ -492,7 +449,6 @@ namespace SkyWarriorsClashofTitans
             gameTimer.Stop();
             ShowPauseScreen();
         }
-
 
         #region Game over
         private void gameOver()

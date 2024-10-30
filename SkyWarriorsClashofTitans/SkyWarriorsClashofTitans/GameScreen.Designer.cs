@@ -189,7 +189,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sky Warrios: Clash of Tians";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.GameScreen_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisUp);
             ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).EndInit();

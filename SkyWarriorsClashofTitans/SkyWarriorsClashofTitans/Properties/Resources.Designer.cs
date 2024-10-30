@@ -882,16 +882,6 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] I_Am_a_Robot {
-            get {
-                object obj = ResourceManager.GetObject("I Am a Robot", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
         internal static byte[] IAmaRobot {
             get {
                 object obj = ResourceManager.GetObject("IAmaRobot", resourceCulture);
@@ -1102,16 +1092,6 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pngaaa_com_3603969 {
-            get {
-                object obj = ResourceManager.GetObject("pngaaa.com-3603969", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap quit_hover {
             get {
                 object obj = ResourceManager.GetObject("quit_hover", resourceCulture);
@@ -1172,69 +1152,9 @@ namespace SkyWarriorsClashofTitans.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] SE3 {
-            get {
-                object obj = ResourceManager.GetObject("SE3", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] SE4 {
-            get {
-                object obj = ResourceManager.GetObject("SE4", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] SE5 {
-            get {
-                object obj = ResourceManager.GetObject("SE5", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] SE6 {
-            get {
-                object obj = ResourceManager.GetObject("SE6", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] SE7 {
-            get {
-                object obj = ResourceManager.GetObject("SE7", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
         internal static byte[] SE8 {
             get {
                 object obj = ResourceManager.GetObject("SE8", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] SE9 {
-            get {
-                object obj = ResourceManager.GetObject("SE9", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -1245,26 +1165,6 @@ namespace SkyWarriorsClashofTitans.Properties {
         internal static System.Drawing.Bitmap select {
             get {
                 object obj = ResourceManager.GetObject("select", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap select1 {
-            get {
-                object obj = ResourceManager.GetObject("select1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap select2 {
-            get {
-                object obj = ResourceManager.GetObject("select2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

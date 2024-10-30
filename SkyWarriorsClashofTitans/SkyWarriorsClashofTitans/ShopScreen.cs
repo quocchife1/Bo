@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,8 @@ namespace SkyWarriorsClashofTitans
     public partial class ShopScreen : Form
     {
         public static int charSelected;
+        SoundPlayer hoverSound;
+        SoundPlayer clickSound;
         public ShopScreen()
         {
             InitializeComponent();
@@ -30,18 +33,32 @@ namespace SkyWarriorsClashofTitans
                 return handleParams;
             }
         }
+
+        private void playHoverSound()
+        {
+            hoverSound = new SoundPlayer(@"SE2.wav");
+            hoverSound.Play();
+        }
+        private void playClickSound()
+        {
+            clickSound = new SoundPlayer(@"SE1.wav");
+            clickSound.Play();
+        }
+        private void playCharacterClickSound()
+        {
+            clickSound = new SoundPlayer(@"SE8.wav");
+            clickSound.Play();
+        }
         private void btn_play_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
-            sound.Play();
+            playClickSound();
             this.Close();
         }
 
         private void btn_play_MouseHover(object sender, EventArgs e)
         {
             btn_back.Image = Properties.Resources.Back_hover;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
-            sound.Play();
+            playHoverSound();
         }
 
         private void btn_back_MouseLeave(object sender, EventArgs e)
@@ -52,8 +69,7 @@ namespace SkyWarriorsClashofTitans
         private void OK_btn_MouseHover(object sender, EventArgs e)
         {
             OK_btn.Image = Properties.Resources.ok_hover;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
-            sound.Play();
+            playHoverSound();
         }
 
         private void OK_btn_MouseLeave(object sender, EventArgs e)
@@ -66,8 +82,7 @@ namespace SkyWarriorsClashofTitans
             charSelected = 1;
             selectBorder.Left = slot1.Left - 22;
             selectBorder.Top = slot1.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
 
         private void slot2_Click(object sender, EventArgs e)
@@ -75,8 +90,7 @@ namespace SkyWarriorsClashofTitans
             charSelected = 2;
             selectBorder.Left = slot2.Left - 22;
             selectBorder.Top = slot2.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
 
         private void slot3_Click(object sender, EventArgs e)
@@ -84,8 +98,7 @@ namespace SkyWarriorsClashofTitans
             charSelected = 3;
             selectBorder.Left = slot3.Left - 22;
             selectBorder.Top = slot3.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
 
         private void slot4_Click(object sender, EventArgs e)
@@ -93,8 +106,7 @@ namespace SkyWarriorsClashofTitans
             charSelected = 4;
             selectBorder.Left = slot4.Left - 22;
             selectBorder.Top = slot4.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
 
         private void slot5_Click(object sender, EventArgs e)
@@ -102,8 +114,7 @@ namespace SkyWarriorsClashofTitans
             charSelected = 5;
             selectBorder.Left = slot5.Left - 22;
             selectBorder.Top = slot5.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
 
         private void slot6_Click(object sender, EventArgs e)
@@ -111,8 +122,7 @@ namespace SkyWarriorsClashofTitans
             charSelected = 6;
             selectBorder.Left = slot6.Left - 22;
             selectBorder.Top = slot6.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
 
         private void slot7_Click(object sender, EventArgs e)
@@ -120,8 +130,7 @@ namespace SkyWarriorsClashofTitans
             charSelected = 7;
             selectBorder.Left = slot7.Left - 22;
             selectBorder.Top = slot7.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
 
         private void slot8_Click(object sender, EventArgs e)
@@ -129,8 +138,7 @@ namespace SkyWarriorsClashofTitans
             charSelected = 8;
             selectBorder.Left = slot8.Left - 22;
             selectBorder.Top = slot8.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
 
         private void slot9_Click(object sender, EventArgs e)
@@ -138,8 +146,7 @@ namespace SkyWarriorsClashofTitans
             charSelected = 9;
             selectBorder.Left = slot9.Left - 22;
             selectBorder.Top = slot9.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
 
         private void slot10_Click(object sender, EventArgs e)
@@ -147,12 +154,11 @@ namespace SkyWarriorsClashofTitans
             charSelected = 10;
             selectBorder.Left = slot10.Left - 22;
             selectBorder.Top = slot10.Top - 26;
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE8.wav");
-            sound.Play();
+            playCharacterClickSound();
         }
         private void WriteFile()
         {
-            string filePath = @"D:\Github\Winforms\Character.txt";
+            string filePath = @"Character.txt";
             string select = charSelected.ToString();
 
             try
@@ -167,10 +173,10 @@ namespace SkyWarriorsClashofTitans
                 MessageBox.Show("Error");
             }
         }
+
         private void OK_btn_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
-            sound.Play();
+            playClickSound();
             WriteFile();
         }
     }

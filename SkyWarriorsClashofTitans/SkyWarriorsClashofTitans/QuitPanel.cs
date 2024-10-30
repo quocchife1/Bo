@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,22 +13,32 @@ namespace SkyWarriorsClashofTitans
 {
     public partial class QuitPanel : Form
     {
+        SoundPlayer hoverSound;
+        SoundPlayer clickSound;
         public QuitPanel()
         {
             InitializeComponent();
         }
+        private void playHoverSound()
+        {
+            hoverSound = new SoundPlayer(@"SE2.wav");
+            hoverSound.Play();
+        }
+        private void playClickSound()
+        {
+            clickSound = new SoundPlayer(@"SE1.wav");
+            clickSound.Play();
+        }
 
         private void btn_no_hover(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
-            sound.Play();
+            playHoverSound();
             btnNo.Image = Properties.Resources.no_hover;
         }
 
         private void btn_yes_hover(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE2.wav");
-            sound.Play();
+            playHoverSound();
             btnYes.Image = Properties.Resources.yes_hover;
         }
 
@@ -43,15 +54,13 @@ namespace SkyWarriorsClashofTitans
 
         private void btnYes_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
-            sound.Play();
+            playClickSound();
             Application.Exit();
         }
 
         private void btnNo_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"D:\Github\Winforms\Sound\SE1.wav");
-            sound.Play();
+            playClickSound();
             this.Close();
         }
     }
